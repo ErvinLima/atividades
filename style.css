@@ -55,3 +55,24 @@ section{
 section h2{
     text-align: center;
 }
+#formularios > div{
+    background-color: #f37f0b;
+    max-width: 30rem;
+    padding: 2rem;
+    margin-inline: auto;
+    margin-top: 3rem;
+    border-radius: 0.9375rem;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: 0;
+}
+
+form input{
+    padding: 0.5rem;
+    border-radius: 0.3125rem;
+    border: 0;
+}

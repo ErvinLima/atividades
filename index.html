@@ -20,6 +20,7 @@
     <main>
         <section id="listas">
             <h2>Listas</h2>
+            <div>
                 <ol>
                     <li>cachorro</li>
                     <li>gato</li>
@@ -27,7 +28,7 @@
                     <li>lemore</li>
                     <li>girafa</li>
                 </ol>
-            <br>
+                <br>
                 <ul>
                     <li>macarrão</li>
                     <li>tomate</li>
@@ -35,6 +36,7 @@
                     <li>cebola</li>
                     <li>açucar</li>
                 </ul>
+            </div>
         </section>
 
         <section id="tabelas">
@@ -65,33 +67,31 @@
 
         <section id="formularios">
             <h2>Formulários</h2>
-            <h3>documentação</h3>
 
-            <label>
-                <span>nome completo</span>
-                <input type="text" class="input_text">
-            </label>
+            <div>
+                <label for="name">Nome</label>
+                <input type="text" id="nome" placeholder="digite seu nome">
+            </div>
 
-            <label>
-                <span>Email</span>
-               <input type="text" class="input_text">
-            </label>
+            <div>
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" id="sobrenome" placeholder="digite seu sobrenome">
+            </div>
 
-            <label>
-                <span>cidade</span>
-                <input type="text" class="input_text">
-            </label>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="digite seu emal">
+            </div>
 
-            <label>
-                <span>país</span>
-                <input type="text" class="input_text">
-            </label>
-            
-            <label>
-                <span>Cpf</span>
-                <input type="number" class="input_text">
-                <input type="button" class="button" value="Enviar">
-            </label>
+            <div>
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade" placeholder="digite seu cidade">
+            </div>
+
+            <div>
+                <label for="banco">Banco</label>
+                <input type="text" id="banco" placeholder="digite seu banco">
+            </div>
         </section>
 
     </main>
