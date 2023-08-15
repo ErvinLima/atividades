@@ -8,23 +8,92 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
         <nav>
-            <a href="">Listas</a>
-            <a href="">Tabelas</a>
-            <a href="">Formulários</a>
+            <a href="#listas">Listas</a>
+            <a href="#tabelas">Tabelas</a>
+            <a href="#formularios">Formulários</a>
         </nav>
     </header>
+
     <main>
         <section id="listas">
-            <h2>listas</h2>
+            <h2>Listas</h2>
+                <ol>
+                    <li>cachorro</li>
+                    <li>gato</li>
+                    <li>calopicita</li>
+                    <li>lemore</li>
+                    <li>girafa</li>
+                </ol>
+            <br>
+                <ul>
+                    <li>macarrão</li>
+                    <li>tomate</li>
+                    <li>alho</li>
+                    <li>cebola</li>
+                    <li>açucar</li>
+                </ul>
         </section>
-        <section>
-            <h2>tabelas</h2>
+
+        <section id="tabelas">
+            <h2>Tabelas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Shoppings</th>
+                        <th>capacidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>burbon</td>
+                        <td>50,000</td>
+                    </tr>
+                    <tr>
+                        <td>itapecerica</td>
+                        <td>10,000</td>
+                    </tr>
+                    <tr>
+                        <td>ibirapuera</td>
+                        <td>75,000</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
-        <section>
+
+        <section id="formularios">
             <h2>Formulários</h2>
+            <h3>documentação</h3>
+
+            <label>
+                <span>nome completo</span>
+                <input type="text" class="input_text">
+            </label>
+
+            <label>
+                <span>Email</span>
+               <input type="text" class="input_text">
+            </label>
+
+            <label>
+                <span>cidade</span>
+                <input type="text" class="input_text">
+            </label>
+
+            <label>
+                <span>país</span>
+                <input type="text" class="input_text">
+            </label>
+            
+            <label>
+                <span>Cpf</span>
+                <input type="number" class="input_text">
+                <input type="button" class="button" value="Enviar">
+            </label>
         </section>
+
     </main>
 </body>
 </html>

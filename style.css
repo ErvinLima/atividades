@@ -1,7 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -39,10 +43,15 @@ nav{
 }
 
 section{
-    border: 1px solid red;
+    border: 0.0625rem solid red;
     height: calc(100vh - 5rem);
+    padding: 3rem;
 }
 
 #listas {
     margin-top: 5rem;
+}
+
+section h2{
+    text-align: center;
 }
